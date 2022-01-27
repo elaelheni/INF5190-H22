@@ -1,0 +1,3 @@
+text :dwcjhcdjh
+radio : True
+select : choix3

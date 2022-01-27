@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="test.html">lien</a> {% if error %}
+    <p style="color:red">{{error}}</p>
+    {% endif %}
+    <form action="/" method="POST">
+        <label for="champ-text">Text</label>
+        <input type="text" name="text">
+        <br>
+        <label for="champ-radio">Radio 1</label>
+        <input type="radio" name="radio">
+        <br>
+        <label for="champ-radio">Radio 2</label>
+        <input type="radio" name="radio">
+        <label for="champ-select">Liste</label>
+        <select name="liste-choix">
+            <option hidden value="">On vous donne le choix</option>
+            <option value="choix1">Choix 1</option>
+            <option value="choix2">Choix 2</option>
+            <option value="choix3">Choix 3</option>
+        </select>
+        <br>
+        <input type="submit" value="soumettre">
+    </form>
+</body>
+
+</html>
