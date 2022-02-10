@@ -1,7 +1,8 @@
 # INF5190-H22
 - Laboratoire n. 1 : [Python](./Python)
 - Laboratoire n. 2 : [HTTP](./HTTP) & [Flask](./Flask)
-- Laboratoire n.3 : [SQlite](./Sqlite)
+- Laboratoire n. 3 : [SQlite](./Sqlite)
+- Laboratoire n. 4 : [Flask & SQlite](./Flask2)
 
 
 # Documentation pertinente :
