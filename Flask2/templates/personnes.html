@@ -1,0 +1,22 @@
+{% extends "default.html" %}
+{% block content %}
+<h2 align="center">Personnes</h2>
+<table border="1" align="center">
+  <thead>
+    <tr>
+      <th width="100">Nom</th>
+      <th width="100">Prénom</th>
+      <th width="100">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for personne in personnes %}
+    <tr>
+      <td>{{personne[0]}}</td>
+      <td>{{personne[1]}}</td>
+      <td>{{personne[2]}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock content %}

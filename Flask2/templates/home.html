@@ -1,0 +1,19 @@
+{% extends "default.html" %}
+{% block content %}
+<h2>Des personnes</h2>
+{% if error %}
+<p style="color:red">{{error}}</p>
+{% endif %}
+<form method="POST" action="/">
+  <label for="champ-nom">Nom</label>
+  <input type="text" name="nom" value={{request.form["nom"]}}>
+  <br>
+  <label for="champ-prenom">Prénom</label>
+  <input type="text" name="prenom" value={{request.form["prenom"]}}>
+  <br>
+  <label for="champ-age">Age</label>
+  <input type="number" name="age" value={{request.form["age"]}}>
+  <br>
+  <button type="submit">Ajouter</button>
+</form>
+{%endblock content%}
