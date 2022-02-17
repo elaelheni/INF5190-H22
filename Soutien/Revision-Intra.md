@@ -22,7 +22,7 @@ Q10 : Existe-t-il une méthode HTTP permettant d'envoyer un mot de passe chiffr�
 
 Q11 : Quel est le code de statut HTTP retourné lorsqu'une requete de type GET a réussi ?
 
-Q12 : Quel est le code de statut HTTP retourné lors d'une redirection ?
+Q12 : Quel est le code de statut HTTP retourné lors d'une demande de redirection ?
 
 Q13 : Quel est le code de statut HTTP retourné lorsqu'une requete de type POST be contient pas toutes les données demandées ?
 
