@@ -14,4 +14,5 @@
 - https://flask.palletsprojects.com/en/2.0.x/
 - https://www.sqlalchemy.org/
 - https://flask-sqlalchemy.palletsprojects.com/en/2.x/
+- https://flask-bcrypt.readthedocs.io/en/latest/
 
