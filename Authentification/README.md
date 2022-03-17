@@ -5,7 +5,7 @@
 - Il s'agit d'une méthode permettant de garantir qu'un contenu n'a pas été modifié par quelqu'un d'autre qu'une personne ou une entité autorisée à le faire.
 
 - Un cookie est généralement une donnée ajoutée par le serveur à une réponse HTTP par le biais de ses en-têtes. Il est conservé par le navigateur qui le renvoie ensuite au serveur lorsqu'il émet des demandes, également par le biais des en-têtes HTTP.<br/> 
-La signature des cookies est une mesure préventive contre la falsification des cookies. Au cours du processus de signature d'un cookie, la clé `SECRET_KEY est utilisée d'une manière similaire à celle d'un "salt" utilisé pour brouiller un mot de passe avant de le hacher.
+La signature des cookies est une mesure préventive contre la falsification des cookies. Au cours du processus de signature d'un cookie, la clé `SECRET_KEY` est utilisée d'une manière similaire à celle d'un "salt" utilisé pour brouiller un mot de passe avant de le hacher.
 
 
 ## Qu'est-ce que FlaskBcrypt ?
