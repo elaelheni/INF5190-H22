@@ -1,0 +1,27 @@
+{% extends 'default.html'%}
+{% block content%}
+
+<h5>Formulaire</h5>
+<form action='/' method='POST'>
+  <label for="champ-nom">Nom</label>
+  <input type="text" name="nom">
+  <br>
+  <label for="champ-courriel">Courriel</label>
+  <input type="text" name="courriel">
+  <br>
+  <label for="champ-validation-courriel">Validation du courriel</label>
+  <input type="text" name="validation-courriel">
+  <br>
+  {% if mail_error %}
+  <span style="color:red">{{mail_error}}</span>
+  {% endif %}
+  <label for="champ-mdp">Mot de passe</label>
+  <input type="text" name="mdp">
+  <br>
+  {% if mdp_error %}
+  <span style="color:red">{{mdp_error}}</span>
+  {% endif %}
+  <input type="submit" value="S'inscrire">
+</form>
+
+{%endblock%}
