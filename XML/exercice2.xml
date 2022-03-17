@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dossier>
+  <nom>Steeve</nom>
+  <prenom>Steeve</prenom>
+  <NAS>LLJGIGFIY078695975</NAS>
+  <date>1999-01-01</date>
+  <medecin>
+    <nom>Bob</nom>
+    <prenom>Steevenson</prenom>
+    <identifiant>HLGHLJGKF9086985975</identifiant>
+    <ville>Montreal</ville>
+  </medecin>
+  <visites>
+    <visite>
+      <date>2022-03-03</date>
+      <sujet>Blessure a la main</sujet>
+      <description>Le patient a perdu une grande quantite de sang</description>
+    </visite>
+    <visite>
+      <date>2021-05-31</date>
+      <sujet>Blessure au genou</sujet>
+      <description>Aucun commentaire</description>
+    </visite>
+  </visites>
+</dossier>
