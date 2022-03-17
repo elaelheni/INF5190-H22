@@ -4,7 +4,7 @@
 - Laboratoire n. 3 : [SQlite](./Sqlite)
 - Laboratoire n. 4 : [Flask & SQlite](./Flask2)
 - Laboratoire n. 5 : Les requetes [asynchrones](./Ajax)
-- Laboratoire n. 6 : Formats de sérialisation [JSON](./Json) et [XML](./XML)
+- Laboratoire n. 6 : Formats de sérialisation [JSON](./JSON) et [XML](./XML)
 
 
 # Documentation pertinente :
