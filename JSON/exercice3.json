@@ -1,0 +1,23 @@
+{
+    "nom": "Steeve",
+    "prénom": "Steeve",
+    "assurance_maladie": "STV097098645963",
+    "date_naissance": "1998-02-12",
+    "medecin_famille": {
+        "nom": "Bob",
+        "prenom": "Steevenson",
+        "identifiant": "DRGKKUGKFOY80688698",
+        "ville": "Bruxelles"
+    },
+    "visites": [{
+            "date": "2020-03-15",
+            "sujet": "COVID-19",
+            "description": "Testé positif à la COVID-19"
+        },
+        {
+            "date": "2021-06-24",
+            "sujet": "grippe",
+            "description": "Le patient hallucine, il n'a rien"
+        }
+    ]
+}

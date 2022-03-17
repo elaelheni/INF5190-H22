@@ -1,0 +1,26 @@
+[{
+        "sigle": "INF5190",
+        "groupe": 20,
+        "trimestre": 1,
+        "annee": 2022,
+        "enseignant": "Jacques Berger",
+        "note": "A+"
+
+    },
+    {
+        "sigle": "INF3190",
+        "groupe": 30,
+        "trimestre": 3,
+        "annee": 2020,
+        "enseignant": "Johnny Tsheke Shele",
+        "note": "A+"
+    },
+    {
+        "sigle": "INF3105",
+        "groupe": 10,
+        "trimestre": 2,
+        "annee": 2019,
+        "enseignant": "Carl Simard",
+        "note": "A+"
+    }
+]
