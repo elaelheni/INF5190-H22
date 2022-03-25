@@ -7,6 +7,7 @@
 - Laboratoire n. 6 : Séance de [soutien](./Soutien)
 - Laboratoire n. 7 : Formats de sérialisation [JSON](./JSON) et [XML](./XML)
 - Laboratoire n. 8 : [Authentification](./Authentification)
+- Laboratoire n. 9 : [API](./API)
 
 
 # Documentation pertinente :
