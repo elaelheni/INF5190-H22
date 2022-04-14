@@ -1,0 +1,8 @@
+# URLS file for siege
+
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/get-info/1
+http://127.0.0.1:5000/get-info/2
+http://127.0.0.1:5000/get-info/3
+http://127.0.0.1:5000/get-info/4
+
