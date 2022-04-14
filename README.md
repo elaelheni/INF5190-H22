@@ -9,7 +9,7 @@
 - Laboratoire n. 8 : [Authentification](./Authentification)
 - Laboratoire n. 9 : [API](./API)
 - Laboratoire n. 10 : [Sessions](./Sessions)
-- Laboratoire n. 11 : [Courriels et authentification] (./MailAuth)
+- Laboratoire n. 11 : [Courriels](./MailAuth) et authentification
 - Laboratoire n. 12 : Les [tests de charge](./Siege)
 - Laboratoire n. 13 : Séance de [révision](./Soutien)
 
