@@ -1,0 +1,15 @@
+{% extends "default.html" %}
+{% block content %}
+<form action="/page1" method="POST">
+  <label for="champ-nom">Nom</label>
+  <input type="text" name="nom">
+  <br/>
+  <label for="champ-prenom">Prénom</label>
+  <input type="text" name="prenom">
+  <br/>
+  <label for="champ-ville">Ville</label>
+  <input type="text" name="ville">
+  <br/>
+  <input type="submit" value="Soumettre">
+</form>
+{% endblock %}

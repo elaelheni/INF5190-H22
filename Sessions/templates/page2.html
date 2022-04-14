@@ -1,0 +1,10 @@
+{% extends "default.html" %}
+{% block content %}
+<form action="/page2" method="POST">
+  <h5>{{email}}</h5>
+  <input type="checkbox" name="valide">
+  <br/>
+  <input type="submit" value="Valider">
+
+</form>
+{% endblock %}
