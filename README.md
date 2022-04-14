@@ -8,6 +8,10 @@
 - Laboratoire n. 7 : Formats de sérialisation [JSON](./JSON) et [XML](./XML)
 - Laboratoire n. 8 : [Authentification](./Authentification)
 - Laboratoire n. 9 : [API](./API)
+- Laboratoire n. 10 : [Sessions](./Sessions)
+- Laboratoire n. 11 : [Courriels et authentification] (./MailAuth)
+- Laboratoire n. 12 : Les [tests de charge](./Siege)
+- Laboratoire n. 13 : Séance de [révision](./Soutien)
 
 
 # Documentation pertinente :
@@ -16,4 +20,6 @@
 - https://www.sqlalchemy.org/
 - https://flask-sqlalchemy.palletsprojects.com/en/2.x/
 - https://flask-bcrypt.readthedocs.io/en/latest/
+- https://flask-login.readthedocs.io/en/latest/
+- https://pythonhosted.org/Flask-Mail/
 
