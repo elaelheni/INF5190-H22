@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Exercice INF5190">
+  <meta name="author" content="Ela El-Heni">
+
+
+  <title>Authentification</title>
+
+  <link href="{{ url_for('static', filename='bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="{{ url_for("home") }}"> Home
+    </a>
+  </nav>
+
+  {% with messages = get_flashed_messages(with_categories=true) %} 
+    {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">
+
+            {{ message }}
+
+        </div>
+
+        {% endfor %}
+
+    {% endif %}
+
+  {% endwith %} 
+
+  {% block content %}{% endblock %}
+
+  </body>
+  </html>

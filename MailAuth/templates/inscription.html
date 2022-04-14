@@ -1,0 +1,94 @@
+{% extends "default.html" %}
+{% block content %}
+<div>
+    <form method="POST" action="">
+        {{form.hidden_tag()}}
+
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">
+                Inscrivez-vous !!
+            </legend>
+            <div class="form-group">
+                <br/>
+                {{ form.nom.label(class="form-control-label")}}
+                {% if form.nom.errors %}
+                 {{ form.nom(class="form-control form-control-lg is-invalid")}}
+                 <div class="invalid-feedback">
+                     {% for error in form.nom.errors %}
+                     <span>{{ error }}</span>
+                     {% endfor %}
+                 </div>
+                 {% else %}
+                   {{ form.nom(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <br/>
+                {{ form.mail.label(class="form-control-label")}}
+                {% if form.mail.errors %}
+                 {{ form.mail(class="form-control form-control-lg is-invalid")}}
+                 <div class="invalid-feedback">
+                     {% for error in form.mail.errors %}
+                     <span>{{ error }}</span>
+                     {% endfor %}
+                 </div>
+                 {% else %}
+                   {{ form.mail(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <br/>
+                {{ form.confirmation_mail.label(class="form-control-label")}}
+                {% if form.confirmation_mail.errors %}
+                 {{ form.confirmation_mail(class="form-control form-control-lg is-invalid")}}
+                 <div class="invalid-feedback">
+                     {% for error in form.confirmation_mail.errors %}
+                     <span>{{ error }}</span>
+                     {% endfor %}
+                 </div>
+                 {% else %}
+                   {{ form.confirmation_mail(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <br/>
+                {{ form.mdp.label(class="form-control-label")}}
+                {% if form.mdp.errors %}
+                 {{ form.mdp(class="form-control form-control-lg is-invalid")}}
+                 <div class="invalid-feedback">
+                     {% for error in form.mdp.errors %}
+                     <span>{{ error }}</span>
+                     {% endfor %}
+                 </div>
+                 {% else %}
+                   {{ form.mdp(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <br/>
+                {{ form.confirmation_mdp.label(class="form-control-label")}}
+                {% if form.confirmation_mdp.errors %}
+                 {{ form.confirmation_mdp(class="form-control form-control-lg is-invalid")}}
+                 <div class="invalid-feedback">
+                     {% for error in form.confirmation_mdp.errors %}
+                     <span>{{ error }}</span>
+                     {% endfor %}
+                 </div>
+                 {% else %}
+                   {{ form.confirmation_mdp(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <br/>
+            {{form.submit(class="btn btn-dark")}}
+        </div>
+    </form>
+    <div class="border-top pt-3">
+        <br/>
+        <small class="text-muted">Avez-vous un compte?<a class="ml-2" href="{{url_for('login')}}">Connectez-vous</a></small>
+    </div>
+</div>
+
+
+{% endblock %}

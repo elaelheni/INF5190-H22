@@ -1,0 +1,8 @@
+{% extends "default.html" %}
+{% block content %}
+
+<h5>Bienvenur {{nom}} </h5>
+
+<small class="text-muted"><a class="ml-2" href="{{url_for('logout')}}">Deconnexion</a></small>
+
+{% endblock %}
